@@ -10,6 +10,7 @@ Source0:	http://www.mentalrey.it/icon_set/%{_name}.zip
 # Source0-md5:	8028c44878b7f90a51ef1e0ac16f600d
 Patch0:		%{_name}-Dos2Unix.patch
 URL:		http://www.kde-look.org/content/show.php/Dark-Glass+Icons+Project?content=67902
+BuildRequires:	unzip
 Requires:	kdelibs
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
