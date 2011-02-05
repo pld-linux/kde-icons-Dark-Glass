@@ -1,6 +1,6 @@
 %define		_name Dark-Glass
 Summary:	KDE icons - %{_name}
-Summary(pl):	Motyw ikon do KDE - %{_name}
+Summary(pl.UTF-8):	Motyw ikon do KDE - %{_name}
 Name:		kde-icons-%{_name}
 Version:	1.2
 Release:	1
