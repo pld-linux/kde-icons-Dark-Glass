@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 %{_name} is an icon theme.
 
-%description -l pl
+%description -l pl.UTF-8
 %{_name} to motyw ikon dla KDE.
 
 %prep
