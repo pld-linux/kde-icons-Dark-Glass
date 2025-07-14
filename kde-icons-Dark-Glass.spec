@@ -23,7 +23,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %prep
 %setup -q -n %{_name}
-%patch0 -p0
+%patch -P0 -p0
 chmod 755 buildset
 ./buildset kmenu
 
